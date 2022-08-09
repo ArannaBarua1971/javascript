@@ -1,0 +1,68 @@
+/* common css part */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.container2 {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.row,
+.flex_wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* common css part */
+
+/* header section css part */
+#header nav{
+    padding:20px 0px 5px 0px ;
+    position: relative;
+}
+#header nav .logo{
+   margin-left: 1104px;
+}
+#header nav .menu ul li{
+    padding:0px 5px;
+    font-family: sans-serif;
+}
+#header nav .menu{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top:23px;
+    right: 0px;
+}
+.line{
+    width: 100px;
+    height: 3px;
+    background: orange;
+    margin-left: auto;
+}
+
+
+/* header section css part */
